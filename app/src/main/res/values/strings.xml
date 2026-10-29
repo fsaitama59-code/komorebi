@@ -1,0 +1,203 @@
+<resources>
+    <string name="app_name">Komorebi</string>
+    <string name="app_short_name">Komorebi</string>
+
+    <!-- Navigation -->
+    <string name="nav_library">Bibliothèque</string>
+    <string name="nav_explore">Explorer</string>
+    <string name="nav_settings">Réglages</string>
+
+    <!-- Library -->
+    <string name="library_title">Bibliothèque</string>
+    <string name="library_empty">Aucun livre dans votre bibliothèque</string>
+    <string name="library_empty_subtitle">Importez des fichiers ou explorez les sources en ligne</string>
+    <string name="library_search_hint">Rechercher…</string>
+    <string name="library_filter_all">Tout</string>
+    <string name="library_filter_manga">Mangas</string>
+    <string name="library_filter_novel">Romans</string>
+    <string name="library_filter_comic">Comics</string>
+    <string name="library_filter_magazine">Magazines</string>
+    <string name="library_view_grid">Grille</string>
+    <string name="library_view_list">Liste</string>
+    <string name="library_sort_recent">Récemment lus</string>
+    <string name="library_sort_title">Titre (A-Z)</string>
+    <string name="library_sort_author">Auteur</string>
+    <string name="library_sort_progress">Progression</string>
+    <string name="library_sort_added">Date d\'ajout</string>
+    <string name="library_sort_updated">Dernière MAJ</string>
+    <string name="library_import">Importer</string>
+    <string name="library_scan">Scanner</string>
+    <string name="library_books_count">%1$d ouvrages</string>
+
+    <!-- Reader -->
+    <string name="reader_page">Page %1$d / %2$d</string>
+    <string name="reader_chapter">Chapitre %1$.0f</string>
+    <string name="reader_loading">Chargement…</string>
+    <string name="reader_error">Erreur de chargement</string>
+    <string name="reader_retry">Réessayer</string>
+    <string name="reader_direction_rtl">Manga (→←)</string>
+    <string name="reader_direction_ltr">Comics (←→)</string>
+    <string name="reader_direction_vertical">Webtoon (↓)</string>
+    <string name="reader_direction_vertical_rtl">Webtoon Manga (↓→←)</string>
+    <string name="reader_theme_dark">Sombre</string>
+    <string name="reader_theme_light">Clair</string>
+    <string name="reader_theme_sepia">Sépia</string>
+    <string name="reader_font_small">Petit</string>
+    <string name="reader_font_medium">Moyen</string>
+    <string name="reader_font_large">Grand</string>
+    <string name="reader_font_xlarge">Très grand</string>
+    <string name="reader_line_tight">Compact</string>
+    <string name="reader_line_normal">Normal</string>
+    <string name="reader_line_relaxed">Aéré</string>
+    <string name="reader_line_loose">Très aéré</string>
+    <string name="reader_margin_narrow">Étroit</string>
+    <string name="reader_margin_normal">Normal</string>
+    <string name="reader_margin_wide">Large</string>
+    <string name="reader_margin_xwide">Très large</string>
+    <string name="reader_chapters">Chapitres</string>
+    <string name="reader_settings">Réglages</string>
+    <string name="reader_zoom_reset">Reset zoom</string>
+    <string name="reader_next_chapter">Chapitre suivant</string>
+    <string name="reader_prev_chapter">Chapitre précédent</string>
+
+    <!-- Explore -->
+    <string name="explore_title">Explorer</string>
+    <string name="explore_subtitle">Découvrir de nouvelles séries</string>
+    <string name="explore_trending">Tendances</string>
+    <string name="explore_new_releases">Nouveautés</string>
+    <string name="explore_popular">Populaires</string>
+    <string name="explore_completed">Terminés</string>
+    <string name="explore_updated">Récemment mis à jour</string>
+    <string name="explore_highly_rated">Mieux notés</string>
+    <string name="explore_genres">Genres</string>
+    <string name="explore_sources">Sources</string>
+    <string name="explore_view_all">Voir tout</string>
+    <string name="explore_rating">Note</string>
+    <string name="explore_chapters">%1$d chap.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Réglages</string>
+    <string name="settings_appearance">Apparence</string>
+    <string name="settings_reading">Lecture</string>
+    <string name="settings_behavior">Comportement</string>
+    <string name="settings_library">Bibliothèque</string>
+    <string name="settings_sources">Sources en ligne</string>
+    <string name="settings_sync">Synchronisation</string>
+    <string name="settings_data">Données</string>
+    <string name="settings_about">À propos</string>
+
+    <!-- Appearance -->
+    <string name="setting_theme">Thème</string>
+    <string name="setting_theme_summary">Choisir le thème de l\'application</string>
+    <string name="setting_auto_night">Mode nuit automatique</string>
+    <string name="setting_auto_night_summary">Basculer automatiquement au coucher du soleil</string>
+    <string name="setting_accent_color">Couleur d\'accent</string>
+    <string name="setting_accent_color_summary">Personnaliser la couleur principale</string>
+
+    <!-- Reading -->
+    <string name="setting_reading_direction">Sens de lecture par défaut</string>
+    <string name="setting_reading_direction_summary">Manga (droite→gauche) / Webtoon (vertical) / Comics (gauche→droite)</string>
+    <string name="setting_reading_theme">Thème de lecture</string>
+    <string name="setting_reading_theme_summary">Sombre / Clair / Sépia</string>
+    <string name="setting_font_size">Taille de police</string>
+    <string name="setting_font_size_summary">Ajuster la taille du texte</string>
+    <string name="setting_line_height">Interligne</string>
+    <string name="setting_line_height_summary">Espacement entre les lignes</string>
+    <string name="setting_margins">Marges</string>
+    <string name="setting_margins_summary">Espacement des bords de page</string>
+
+    <!-- Behavior -->
+    <string name="setting_keep_screen_on">Garder l\'écran allumé</string>
+    <string name="setting_keep_screen_on_summary">Empêcher la mise en veille pendant la lecture</string>
+    <string name="setting_auto_advance">Avance automatique</string>
+    <string name="setting_auto_advance_summary">Passer au chapitre suivant automatiquement</string>
+    <string name="setting_swipe_turn">Balayer pour tourner</string>
+    <string name="setting_swipe_turn_summary">Geste de balayage pour changer de page</string>
+    <string name="setting_double_tap_zoom">Double tap pour zoomer</string>
+    <string name="setting_double_tap_zoom_summary">Zoom rapide sur les pages</string>
+    <string name="setting_show_progress">Afficher la progression</string>
+    <string name="setting_show_progress_summary">Barre de progression en bas de l\'écran</string>
+
+    <!-- Library -->
+    <string name="setting_group_series">Grouper par série</string>
+    <string name="setting_group_series_summary">Regrouper les chapitres par série</string>
+    <string name="setting_show_covers">Afficher les couvertures</string>
+    <string name="setting_show_covers_summary">Vignettes dans la liste</string>
+    <string name="setting_sort_order">Tri par défaut</string>
+    <string name="setting_sort_order_summary">Ordre d\'affichage des livres</string>
+    <string name="setting_import_files">Importer des fichiers</string>
+    <string name="setting_import_files_summary">Ajouter CBZ, PDF, EPUB depuis le stockage</string>
+    <string name="setting_scan_library">Scanner la bibliothèque</string>
+    <string name="setting_scan_library_summary">Détecter automatiquement les nouveaux fichiers</string>
+
+    <!-- Sources -->
+    <string name="setting_manage_extensions">Gérer les extensions</string>
+    <string name="setting_manage_extensions_summary">Installer, mettre à jour, configurer les sources</string>
+    <string name="setting_source_priority">Ordre de priorité</string>
+    <string name="setting_source_priority_summary">Définir l\'ordre de recherche des sources</string>
+
+    <!-- Sync -->
+    <string name="setting_sync_enabled">Activer la synchronisation</string>
+    <string name="setting_sync_enabled_summary">Synchroniser progression, favoris, bibliothèque</string>
+    <string name="setting_wifi_only">Wi-Fi uniquement</string>
+    <string name="setting_wifi_only_summary">Ne synchroniser que sur Wi-Fi</string>
+    <string name="setting_auto_backup">Sauvegarde automatique</string>
+    <string name="setting_auto_backup_summary">Sauvegarder la bibliothèque dans le cloud</string>
+    <string name="setting_sync_now">Synchroniser maintenant</string>
+    <string name="setting_sync_now_summary">Forcer une synchronisation immédiate</string>
+
+    <!-- Data -->
+    <string name="setting_clear_cache">Effacer le cache</string>
+    <string name="setting_clear_cache_summary">Libérer l\'espace de stockage des images</string>
+    <string name="setting_export_library">Exporter la bibliothèque</string>
+    <string name="setting_export_library_summary">Sauvegarder en JSON/CSV</string>
+    <string name="setting_import_library">Importer la bibliothèque</string>
+    <string name="setting_import_library_summary">Restaurer depuis une sauvegarde</string>
+    <string name="setting_reset_app">Réinitialiser l\'application</string>
+    <string name="setting_reset_app_summary">Supprimer toutes les données et préférences</string>
+
+    <!-- About -->
+    <string name="setting_version">Version</string>
+    <string name="setting_licenses">Licences open source</string>
+    <string name="setting_licenses_summary">Voir les licences des bibliothèques utilisées</string>
+    <string name="setting_privacy">Confidentialité</string>
+    <string name="setting_privacy_summary">Politique de confidentialité</string>
+    <string name="setting_report_bug">Signaler un bug</string>
+    <string name="setting_report_bug_summary">Nous aider à améliorer l\'application</string>
+    <string name="setting_support">Soutenir le développement</string>
+    <string name="setting_support_summary">Faire un don / Contribuer sur GitHub</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_confirm">Confirmer</string>
+    <string name="dialog_cancel">Annuler</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_reset_title">Réinitialiser l\'application ?</string>
+    <string name="dialog_reset_message">Cette action supprimera toutes vos données (bibliothèque, progression, préférences). Cette action est irréversible.</string>
+    <string name="dialog_delete_title">Supprimer ?</string>
+    <string name="dialog_delete_message">Voulez-vous vraiment supprimer cet élément ?</string>
+
+    <!-- Errors -->
+    <string name="error_generic">Une erreur est survenue</string>
+    <string name="error_network">Erreur de connexion</string>
+    <string name="error_storage">Erreur de stockage</string>
+    <string name="error_permission">Permission refusée</string>
+    <string name="error_file_not_found">Fichier introuvable</string>
+    <string name="error_unsupported_format">Format non supporté</string>
+
+    <!-- Permissions -->
+    <string name="permission_storage_rationale">L\'accès au stockage est nécessaire pour importer vos livres</string>
+    <string name="permission_notification_rationale">Les notifications sont utilisées pour les mises à jour de téléchargement</string>
+
+    <!-- Accessibility -->
+    <string name="a11y_book_cover">Couverture de %1$s</string>
+    <string name="a11y_read_progress">Progression de lecture : %1$d pourcent</string>
+    <string name="a11y_chapter_unread">Non lu</string>
+    <string name="a11y_chapter_read">Lu</string>
+    <string name="a11y_favorite">Favori</string>
+    <string name="a11y_download">Téléchargé</string>
+    <string name="a11y_menu">Menu</string>
+    <string name="a11y_back">Retour</string>
+    <string name="a11y_search">Rechercher</string>
+    <string name="a11y_filter">Filtrer</string>
+    <string name="a11y_settings">Réglages</string>
+</resources>

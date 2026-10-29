@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Komorebi Brand Colors -->
+    <color name="komorebi_primary">#0D4A3C</color>
+    <color name="komorebi_primary_variant">#08352A</color>
+    <color name="komorebi_primary_light">#1A6B56</color>
+    <color name="komorebi_primary_glow">#2EB88A</color>
+    <color name="komorebi_secondary">#C8962E</color>
+    <color name="komorebi_secondary_variant">#9B721F</color>
+    <color name="komorebi_secondary_light">#E8B95A</color>
+    <color name="komorebi_secondary_glow">#FFD47A</color>
+    <color name="komorebi_tertiary">#B87A8A</color>
+    <color name="komorebi_tertiary_light">#D4A5B0</color>
+
+    <!-- Surface Colors (Dark Theme) -->
+    <color name="komorebi_surface_base">#0A0F0E</color>
+    <color name="komorebi_surface_elevated">#111A18</color>
+    <color name="komorebi_surface_overlay">#16221F</color>
+    <color name="komorebi_surface_glass">#801A2A25</color>
+    <color name="komorebi_surface_glass_strong">#A01A2A25</color>
+    <color name="komorebi_surface_glass_subtle">#401A2A25</color>
+    <color name="komorebi_surface_glass_highlight">#30FFFFFF</color>
+    <color name="komorebi_surface_glass_shadow">#60000000</color>
+
+    <!-- Content Colors -->
+    <color name="komorebi_content_primary">#F5F5F0</color>
+    <color name="komorebi_content_secondary">#B8C8C0</color>
+    <color name="komorebi_content_tertiary">#8A9A92</color>
+    <color name="komorebi_content_disabled">#5A6A62</color>
+    <color name="komorebi_content_inverse">#0A0F0E</color>
+
+    <!-- Border Colors -->
+    <color name="komorebi_border_glass">#30FFFFFF</color>
+    <color name="komorebi_border_glass_bright">#50FFFFFF</color>
+    <color name="komorebi_border_glass_dim">#1AFFFFFF</color>
+    <color name="komorebi_border_accent">#C8962E</color>
+    <color name="komorebi_border_accent_glow">#FFD47A</color>
+    <color name="komorebi_border_error">#E86C6C</color>
+    <color name="komorebi_border_success">#2EB88A</color>
+    <color name="komorebi_border_warning">#FFB84D</color>
+
+    <!-- Status Colors -->
+    <color name="komorebi_status_error">#E86C6C</color>
+    <color name="komorebi_status_error_container">#40E86C6C</color>
+    <color name="komorebi_status_success">#2EB88A</color>
+    <color name="komorebi_status_success_container">#402EB88A</color>
+    <color name="komorebi_status_warning">#FFB84D</color>
+    <color name="komorebi_status_warning_container">#40FFB84D</color>
+    <color name="komorebi_status_info">#64B5F6</color>
+    <color name="komorebi_status_info_container">#4064B5F6</color>
+
+    <!-- Light Theme Variants -->
+    <color name="komorebi_light_surface_base">#F8FAF9</color>
+    <color name="komorebi_light_surface_elevated">#FFFFFF</color>
+    <color name="komorebi_light_surface_overlay">#F0F5F2</color>
+    <color name="komorebi_light_surface_glass">#C0FFFFFF</color>
+    <color name="komorebi_light_surface_glass_strong">#E0FFFFFF</color>
+    <color name="komorebi_light_surface_glass_subtle">#80FFFFFF</color>
+    <color name="komorebi_light_surface_glass_highlight">#40000000</color>
+    <color name="komorebi_light_surface_glass_shadow">#30000000</color>
+    <color name="komorebi_light_content_primary">#0A0F0E</color>
+    <color name="komorebi_light_content_secondary">#3A4A42</color>
+    <color name="komorebi_light_content_tertiary">#6A7A72</color>
+    <color name="komorebi_light_content_disabled">#9A9A9A</color>
+    <color name="komorebi_light_content_inverse">#FFFFFF</color>
+    <color name="komorebi_light_border_glass">#40000000</color>
+    <color name="komorebi_light_border_glass_bright">#60000000</color>
+    <color name="komorebi_light_border_glass_dim">#20000000</color>
+</resources>

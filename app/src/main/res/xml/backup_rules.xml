@@ -1,0 +1,8 @@
+<resources>
+    <full-backup-content>
+        <include domain="sharedpref" path="." />
+        <include domain="database" path="." />
+        <exclude domain="file" path="cache" />
+        <exclude domain="file" path="http_cache" />
+    </full-backup-content>
+</resources>

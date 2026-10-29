@@ -1,0 +1,15 @@
+<resources>
+    <cloud-backup>
+        <include domain="sharedpref" path="." />
+        <include domain="database" path="." />
+        <exclude domain="file" path="cache" />
+        <exclude domain="file" path="http_cache" />
+    </cloud-backup>
+
+    <device-transfer>
+        <include domain="sharedpref" path="." />
+        <include domain="database" path="." />
+        <exclude domain="file" path="cache" />
+        <exclude domain="file" path="http_cache" />
+    </device-transfer>
+</resources>

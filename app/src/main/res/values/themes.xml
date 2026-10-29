@@ -1,0 +1,25 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.Komorebi" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <!-- Splash screen theme -->
+    <style name="Theme.Komorebi.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/komorebi_surface_base</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item>
+        <item name="windowSplashScreenAnimationDuration">800</item>
+        <item name="postSplashScreenTheme">@style/Theme.Komorebi</item>
+    </style>
+
+    <!-- Reader fullscreen theme -->
+    <style name="Theme.Komorebi.Reader" parent="Theme.Komorebi">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+</resources>
